@@ -1,0 +1,242 @@
+body {
+    margin: 0%;
+    background-color: lavenderblush;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a  {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: large;
+  padding: 14px 35px;
+  text-decoration: none;
+
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111111;}
+
+ul.topnav li a.active {background-color: #ddbf11;font-weight: bold;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+table{
+  font-family: sans-serif;
+  border-collapse: collapse;
+  height: 340px;
+  float: left;
+  margin: 35px 25px;
+  border-radius: 5px;
+}
+th{
+ text-decoration: none;
+ background: rgb(5, 87, 5);
+ color: rgb(10, 13, 15);
+ margin: 35px 25px;
+ padding: 10px 115px;
+ border: 1px solid rgb(11, 109, 11);
+ border-radius: 2px;
+}
+td{
+  text-decoration: none;
+  background: rgb(134, 136, 134);
+  color: aliceblue;
+  margin: 35px 25px;
+  padding: 10px 115px;
+  border: 1px solid rgb(11, 109, 11);
+  border-radius: 2px;
+}
+.an{
+  color: aliceblue;
+  text-decoration: none;
+}
+.an1{
+  color: #111111;
+  text-decoration: none;
+  font-weight: bold;
+}
+th:hover{
+background: rgb(72, 221, 72);
+padding: 10px 35px;
+}
+td:hover{
+  background: rgb(72, 221, 72);
+}
+.h1{
+  text-align: center;
+  margin-top: 40px;
+  text-decoration: none;
+}
+#container{
+  align-items: center;
+  margin: 15px 36%  10% 36%;
+  width: 55%;
+  height: 200px;
+  text-align: center;
+  background-color: lightgreen;
+  border-radius: 10px;
+  padding: 20px;
+}
+.input-div{
+  display: inline-block;
+}
+.inpt{
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 1cqmax;
+  width: 100px;
+  font-size: 30px;
+}
+label{
+  font-size: 20px;
+}
+.content{
+  width: 70%;
+  border-top: 1px solid black;
+  border-radius: 5px;
+  border-bottom: 1px solid black;
+  background-color:rgb(233, 142, 142);
+  margin: 0 10% 3% 15%;
+}
+.para-1{
+  padding: 10px 15px;
+  color: #472626;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1px red;
+  font-weight: bold;
+}
+.content:hover{
+  background-color: coral;
+}
+.para-1:hover{
+  color: black;
+}
+
+.feed{
+  border: 0.5px solid grey;
+  border-radius: 1cqmax;
+  float: left;
+  width:  70%;
+  color: rgb(224, 88, 88);
+  text-shadow: 1px 1px black;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 2%;
+  background-color: transparent;
+  padding-bottom: 20px;
+}
+h1{
+  text-decoration: none;
+}
+.feed:hover{
+  background-color: lightgrey;
+}
+.lbl{
+  color: grey;
+  margin: 15px;
+}
+.pt{
+  border-radius: 30cqmax;
+  margin-right: 15px;
+  width: 180pt;
+  height: 20pt;
+}
+.lbl1{
+  color: grey;
+  margin: 15px;
+  padding-left: 10px;
+}
+.ta{
+  border-radius: 10px;
+  width: 200px;
+  padding: auto;
+}
+
+.Submit{
+  margin-left: 40%;
+  border-radius: 10px;
+  width: 150px;
+  height: 35px;
+  background-color: grey;
+  font-size: 20px;
+  font-weight: 400;
+}
+.Submit:hover{
+  background-color: #333;
+}
+
+.footer{
+  border: 0.5px solid grey;
+  background-color: #332d2d;
+  height: auto  ;
+  padding: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+}
+
+.fa-facebook{
+  color: aliceblue;
+  background-color: transparent;
+  border: 1px solid aliceblue;
+  border-radius: 50%;
+  margin-left: 34%;
+}
+.fa-twitter{
+  color: aliceblue;
+  background-color: transparent;
+  border: 1px solid aliceblue;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.fa-google{
+  color: aliceblue;
+  background-color: transparent;
+  border: 1px solid aliceblue;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.fa-linkedin{
+  color: aliceblue;
+  background-color: transparent;
+  border: 1px solid aliceblue;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.fa-instagram{
+  color: aliceblue;
+  background-color: transparent;
+  border: 1px solid aliceblue;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.fr{
+  background-color: #472626;
+  width: 100%;
+}
